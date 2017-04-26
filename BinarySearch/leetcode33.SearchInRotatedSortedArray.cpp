@@ -1,3 +1,6 @@
+#include<iostream>
+#include<vector>
+using namespace std;
 class Solution {
 public:
     int search(vector<int>& nums, int target) 
@@ -51,3 +54,9 @@ public:
         
     }
 };
+int main()
+{
+	vector<int> a;
+	a.push_back(1);
+	cout<<a[0]<<endl;
+}
