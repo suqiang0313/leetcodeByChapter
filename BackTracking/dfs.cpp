@@ -4,6 +4,8 @@
 //http://www.cnblogs.com/yanlingyin/archive/2011/12/26/Depth-firstsearch.html
 #include<stdio.h>
 #include<stdlib.h>
+#include<iostream>
+using namespace std;
 struct node
 {
 	int vertex;

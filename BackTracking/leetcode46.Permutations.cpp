@@ -1,8 +1,10 @@
+#include <vector>
+using namespace std;
 class Solution {
 public:
-	vector<vector<int>> permute(vector<int>& nums) 
+	vector<vector<int> > permute(vector<int>& nums) 
 	{
-		vector<vector<int>> ret;
+		vector<vector<int> > ret;
 		vector<int> temp;
 		if(nums.size()==0)
 		{
@@ -13,7 +15,7 @@ public:
 		dfs(ret,temp,nums,visited);
 		return ret;
 	}
-	void dfs(vector<vector<int>> &ret,vector<int> &temp,vector<int> &nums,vector<bool> &visited)
+	void dfs(vector<vector<int> > &ret,vector<int> &temp,vector<int> &nums,vector<bool> &visited)
 	{
 		if(temp.size()==nums.size())
 		{

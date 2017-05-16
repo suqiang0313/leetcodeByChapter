@@ -59,4 +59,7 @@ int main()
 	vector<int> a;
 	a.push_back(1);
 	cout<<a[0]<<endl;
+	Solution s;
+	cout<<s.search(a,1)<<endl;
+
 }
