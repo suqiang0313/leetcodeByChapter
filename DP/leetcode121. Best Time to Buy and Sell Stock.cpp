@@ -1,7 +1,8 @@
-#121. Best Time to Buy and Sell Stock
-#url :https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-#solution 1 : DP 
-
+"""
+121. Best Time to Buy and Sell Stock
+url :https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+solution 1 : DP
+""" 
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -22,9 +23,9 @@ public:
         
     }
 };
-
-## greedy algorithm
-
+"""
+solution 2: greedy algorithm
+"""
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
