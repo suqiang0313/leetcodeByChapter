@@ -31,7 +31,7 @@ Url: https://leetcode.com/problems/add-two-numbers/
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-    	ListNode dummy = ListNode (0);
+    	ListNode dummy = ListNode (-1);
     	ListNode* head = &dummy;
     	ListNode* tail = &dummy;
     	int val = 0;
