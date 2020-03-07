@@ -1,3 +1,6 @@
+//title : leetcode70.ClimbingStairs
+//url :https://leetcode.com/problems/climbing-stairs/
+//solution : dp[i] = dp[i-1] + dp[i-2]
 // solution1 
 class Solution {
 public:
